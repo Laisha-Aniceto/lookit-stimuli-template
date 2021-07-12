@@ -1,0 +1,53 @@
+Group,WrittenStory,Question,YesNo,QuestionType,QuestionNumber,StoryImage,VoiceRecording,AnswerOne,AnswerTwo,AnswerThree,CorrectAnswer
+A,Jamal and his sister Maria are playing in the yard when they see a cute puppy hiding under the porch. He  is very friendly so they play with him and find his name on his collar is Snoopy. ,F,F,,NULL,PuppyA_1.png,Puppy1.mp3,,,,
+A,They are worried that their Dad will chase him away so they hide him in the shed. Then Maria puts Dad’s bike behind the bush. Then they go in to have breakfast.,F,F,,NULL,PuppyA_2.png,Puppy2.mp3,,,,
+A,Look here comes Dad with his helmet- he wants to ride his bike.,F,F,,NULL,PuppyA_3.png,Puppy3.mp3,,,,
+A,Where will Dad first look for his bike?,T,F,FBD,1,PuppyA_3.png,Puppy4.mp3,Shed.png,Bush.png,Porch.png,Shed.png
+A,What does Dad think is in the shed?,T,F,FBC,2,PuppyA_3.png,Puppy5.mp3,Helmet.png,Dog.png,Bike.png,Bike.png
+A,Uh-oh he finds Snoopy!,F,F,,NULL,PuppyA_4.png,Puppy6.mp3,,,,
+A,"Here, does Maria know that Dad knows the dog is in the shed?",T,T,2ndC,3,PuppyA_4.png,Puppy7.mp3,,,,No
+A,Maria comes out and Dad tells her that Snoopy is a prizewinning dog.  He had seen a sign on the tree in the street saying he is lost. See the sign? ,F,F,,NULL,PuppyA_5.png,Puppy8.mp3,,,,
+A,They go walking with him to find the owner. Jamal is still inside. Look at them on the street. ,F,F,,NULL,PuppyA_6.png,Puppy9.mp3,,,,
+A,Has Maria made a leash for a prizewinning dog?,T,T,OrdinaryInNP,4,PuppyA_6.png,Puppy10A.mp3,,,,Yes
+A,Does Maria know Snoopy is a prizewinning dog?,T,T,KnowIdentityInNP,5,PuppyA_6.png,Puppy11.mp3,,,,
+A,Does Jamal know that Maria is walking Snoopy? ,T,T,1stC,6,PuppyA_6.png,Puppy12.mp3,,,,No
+A,Does Maria know she has a prizewinning dog on a leash?,T,T,KnowMentalInNP,7,PuppyA_6.png,Puppy13A.mp3,,,,Yes
+A,Now Jamal finished breakfast and comes out.,F,F,,NULL,PuppyA_7.png,Puppy14.mp3,,,,
+A,Does Jamal know that there is a sign on the tree?,T,T,1stC,8,PuppyA_7.png,Puppy15.mp3,,,,No
+A,Does Jamal know Snoopy is a prizewinning dog?,T,T,NonKnowIdentityInNP,9,PuppyA_7.png,Puppy16.mp3,,,,No
+A,He searches everywhere. ,F,F,,NULL,PuppyA_8.png,Puppy17.mp3,,,,
+A,Does Jamal think that he lost a prizewinning dog? ,T,T,NonKnowMentalInNP,10,PuppyA_8.png,Puppy18A.mp3,,,,
+A,Could he be behind the bush?,F,F,,NULL,PuppyA_8.png,Puppy19.mp3,,,,
+A,Does Jamal think the bush may be covering up Snoopy?,T,T,NonKnowMentalExNP,11,JamalThinking.png,Puppy20A.mp3,,,,Yes
+A,Does Jamal know he put a prizewinning dog in the shed?,T,T,NonKnowMentalInNP,12,JamalThinking.png,Puppy21A.mp3,,,,No
+A,"Oh good, they found the owner!",F,F,,NULL,PuppyA_9.png,Puppy22.mp3,,,,
+A,Does Marie know that she is sending Snoopy home?,T,T,KnowMentalExNP,13,PuppyA_9.png,Puppy23A.mp3,,,,Yes
+A,Does Jamal know that Maria knows who the owner is?,T,T,2ndC,14,PuppyA_9.png,Puppy24.mp3,,,,No
+A,The owner walks back with them and Jamal is so happy to see them! The owner says they can play with Snoopy anytime they want.,F,F,,NULL,PuppyA_10.png,Puppy25.mp3,,,,
+A,"At the start, did you know the kids found a prizewinning dog under their porch?",T,T,NonKnowFirstPersonInNP,15,PuppyA_10.png,Puppy26A.mp3,,,,No
+B,Jamal and his sister Maria are playing in the yard when they see a cute puppy hiding under the porch. He  is very friendly so they play with him and find his name on his collar is Snoopy. ,F,F,,NULL,PuppyA_1.png,Puppy1.mp3,,,,
+B,They are worried that their Dad will chase him away so they hide him in the shed. Then Maria puts Dad’s bike behind the bush.Then they go in to have breakfast.,F,F,,NULL,PuppyA_2.png,Puppy2.mp3,,,,
+B,Look here comes Dad with his helmet- he wants to ride his bike.,F,F,,NULL,PuppyA_3.png,Puppy3.mp3,,,,
+B,Where will Dad first look for his bike?,T,F,FBD,1,PuppyA_3.png,Puppy4.mp3,Shed.png,Bush.png,Porch.png,Shed.png
+B,What does Dad think is in the shed?,T,F,FBC,2,PuppyA_3.png,Puppy5.mp3,Helmet.png,Dog.png,Bike.png,Bike.png
+B,Uh-oh he finds Snoopy!,F,F,,NULL,PuppyA_4.png,Puppy6.mp3,,,,
+B,"Here, does Maria know that Dad knows the dog is in the shed? ",T,T,2ndC,3,PuppyA_4.png,Puppy7.mp3,,,,No
+B,Maria comes out and Dad tells her that Snoopy is a prizewinning dog.  He had seen a sign on the tree in the street saying he is lost. See the sign? ,F,F,,NULL,PuppyA_5.png,Puppy8.mp3,,,,
+B,They go walking with him to find the owner. Jamal is still inside. Look at them on the street. ,F,F,,NULL,PuppyA_6.png,Puppy9.mp3,,,,
+B,Has a prizewinning dog got a new leash?,T,T,OrdinaryInNP,4,PuppyA_6.png,Puppy10B.mp3,,,,Yes
+B,Does Maria know Snoopy is a prizewinning dog?,T,T,KnowIdentityInNP,5,PuppyA_6.png,Puppy11.mp3,,,,
+B,Does Jamal know that Maria is walking Snoopy,T,T,1stC,6,PuppyA_6.png,Puppy12.mp3,,,,No
+B,Does Maria know a prizewinning dog is on the leash?,T,T,KnowMentalInNP,7,PuppyA_6.png,Puppy13B.mp3,,,,Yes
+B,Now Jamal finished breakfast and comes out.,F,F,,NULL,PuppyA_7.png,Puppy14.mp3,,,,
+B,Does Jamal know that there is a sign on the tree?,T,T,1stC,8,PuppyA_7.png,Puppy15.mp3,,,,No
+B,Does Jamal know Snoopy is a prizewinning dog?,T,T,NonKnowIdentityInNP,9,PuppyA_7.png,Puppy16.mp3,,,,No
+B,He searches everywhere. ,F,F,,NULL,PuppyA_8.png,Puppy17.mp3,,,,
+B,Does Jamal think a prizewinning dog is lost? ,T,T,NonKnowMentalInNP,10,PuppyA_8.png,Puppy18B.mp3,,,,
+B,Could he be behind the bush?,F,F,,NULL,PuppyA_8.png,Puppy19.mp3,,,,
+B,Does Jamal think Snoopy may be covered up by the bush?,T,T,NonKnowMentalExNP,11,JamalThinking.png,Puppy20B.mp3,,,,Yes
+B,Does Jamal know a prizewinning dog was put in the shed?,T,T,NonKnowMentalInNP,12,JamalThinking.png,Puppy21B.mp3,,,,No
+B,"Oh good, they found the owner!",F,F,,NULL,PuppyA_9.png,Puppy22.mp3,,,,
+B,Does Marie know Snoopy is going home?,T,T,KnowMentalExNP,13,PuppyA_9.png,Puppy23B.mp3,,,,Yes
+B,Does Jamal know that Maria knows who the owner is? ,T,T,2ndC,14,PuppyA_9.png,Puppy24.mp3,,,,No
+B,The owner walks back with them and Jamal is so happy to see them! The owner says they can play with Snoopy anytime they want.,F,F,,NULL,PuppyA_10.png,Puppy25.mp3,,,,
+B,"At the start, did you know a prizewinning dog was under the kids' porch?",T,T,NonKnowFirstPersonInNP,15,PuppyA_10.png,Puppy26B.mp3,,,,No
